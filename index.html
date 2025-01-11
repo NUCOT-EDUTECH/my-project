@@ -1,14 +1,1568 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home-Nucot EduTech</title>
+
+    <!-- Favicon img -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+
+    <!-- Bootstrap min css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Mean menu css -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+
+    <!-- All min css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- Swiper bundle min css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- Magnific popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!-- Animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!-- Nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+
+    <!-- Custom Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Responsive CSS -->
+    <style>
+        /* For small screens like mobile devices */
+        @media only screen and (max-width: 767px) {
+            /* Adjust font size for small screens */
+            body {
+                font-size: 14px;
+            }
+
+            /* Adjust header layout */
+            .header {
+                display: block;
+                text-align: center;
+            }
+
+            /* Make navigation menu stack vertically */
+            .main-menu {
+                display: block;
+                text-align: center;
+            }
+
+            .main-menu li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            /* Adjust images to fit the screen */
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            /* Make the content area responsive */
+            .content {
+                padding: 10px;
+            }
+        }
+
+        /* For medium screens like tablets */
+        @media only screen and (max-width: 1024px) and (min-width: 768px) {
+            /* Adjust layout for tablets */
+            .main-menu {
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .content {
+                padding: 20px;
+            }
+        }
+
+    </style>
 </head>
+
+
 <body>
-    <h1>Welcome to Collaboration  HTML Page</h1>
-    <p>This is a paragraph of text.</p>
-    <p>this is pallavi going to change</p>
-    <a href="https://www.example.com" target="_blank">Click here to visit an example website</a>
-</body>
-</html>
+
+    <!-- Top header area start here -->
+    <div class="header-top-area d-none d-lg-block">
+        <div class="header__container">
+            <div class="header-top__wrp">
+                <ul class="info">
+                    <li>
+                        <b style="color:white">Jeevan Bheema Nagar </b>
+                        <a href="tel:919341219924" style="color: rgba(255, 255, 255, 1);">+91 9341219924</a>
+                    </li>
+                    <li><span></span></li>
+                    <li>
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_906_50)">
+                                <path d="M13.5937 1.875H1.40626C0.6308 1.875 0 2.5058 0 3.28126V11.7188C0 12.4942 0.6308 13.125 1.40626 13.125H13.5937C14.3692 13.125 15 12.4942 15 11.7188V3.28126C15 2.5058 14.3692 1.875 13.5937 1.875ZM13.5937 2.8125C13.6574 2.8125 13.718 2.82571 13.7734 2.84879L7.5 8.28599L1.22656 2.84879C1.28346 2.82493 1.34453 2.8126 1.40623 2.8125H13.5937ZM13.5937 12.1875H1.40626C1.14763 12.1875 0.937496 11.9774 0.937496 11.7187V3.83926L7.19283 9.26056C7.2812 9.33699 7.3906 9.375 7.5 9.375C7.6094 9.375 7.7188 9.33702 7.80717 9.26056L14.0625 3.83926V11.7188C14.0625 11.9774 13.8524 12.1875 13.5937 12.1875Z" fill="#2EB97E"></path>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_906_50">
+                                    <rect width="15" height="15" fill="white"></rect>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <a href="mailto:info@nucotedutech.com" style="color: rgba(255, 255, 255, 1);">info@nucotedutech.com</a>
+                    </li>
+                </ul>
+                <ul class="socila-link">
+                    <li class="text-white">Follow Us On :</li>
+                    <li><a href="https://instagram.com/nucotedutech"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/nucotedutech/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.youtube.com/@NucotEdutech"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Top header area end here -->
+
+    <!-- Header area start here -->
+    <header class="header-area">
+        <div class="header__container">
+            <div class="header__main d-flex justify-content-between align-items-center">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/favicon.png" alt="logo" class="img-fluid">
+                </a>
+                <div class="main-menu">
+                    <nav>
+                        <ul class="d-flex flex-wrap justify-content-center">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="courses.html">Courses</a>
+                                <ul class="sub-menu">
+                                    <li><a href="courses.html">Training with Placement</a></li>
+                                    <li><a href="courses.html">Internship with Placement</a></li>
+                                    <li><a href="courses.html">Institute Partnerships</a></li>
+                                    <li><a href="courses.html">Short Term Courses</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="batches.html">Batches</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="placements.html">Placements</a></li>
+                            <li><a href="blogs.html">Blogs</a></li>
+                            <li><a href="hire-from-us.html">Hire From Us</a></li>
+                           
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+               
+                <!-- Mobile menu button -->
+                <button class="menubars d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#menubar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <style>
+        /* Ensure logo does not overflow */
+.header__container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* For the logo image */
+.logo img {
+    max-width: 100%;  /* Prevents image from overflowing */
+    height: auto;     /* Maintains aspect ratio */
+}
+
+/* For mobile responsiveness */
+@media (max-width: 767px) {
+    .header__main {
+        padding: 0 15px;  /* Ensures there is no overflow in small screens */
+    }
+
+    .logo {
+        max-width: 150px;  /* Adjust size of logo for mobile view */
+    }
+    
+    /* Ensure the menu doesn't overflow */
+    .main-menu {
+        max-width: 100%;
+        overflow: hidden;
+    }
+}
+
+    </style>
+    <!-- Header area end here -->
+
+    
+    <!-- Sidebar area start here -->
+    <div class="sidebar-area offcanvas offcanvas-end" id="menubar">
+        <div class="offcanvas-header">
+            <a href="index.html" class="logo">
+                <img src="assets/images/favicon.png" alt="logo" class="img-fluid">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i class="fa-regular fa-xmark"></i></button>
+        </div>
+        <div class="offcanvas-body sidebar__body">
+            <div class="mobile-menu overflow-hidden">
+                <!-- Add mobile menu content if needed -->
+            </div>
+            <div class="d-none d-lg-block">
+                <h5 class="text-white mb-20">About Us</h5>
+                <p class="paragraph-light fs-16">
+                    Maximize your website's impact and enhance its digital presence through our all-inclusive online courses.
+                </p>
+            </div>
+            <div class="sidebar__search d-block d-lg-none">
+                <input type="text" placeholder="Search here..">
+                <button><i class="fa-regular fa-magnifying-glass"></i></button>
+            </div>
+            <div class="sidebar__contact-info mt-30">
+                <h5 class="text-white mb-20">Contact Info</h5>
+                <ul>
+                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@nucotedutech.com">info@nucotedutech.com</a></li>
+                    <li class="py-2"><i class="fa-solid fa-phone-volume"></i> <a href="tel:919901066669">+91 9364016238</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar__socials">
+                <ul>
+                    <li><a href="https://www.facebook.com/nucotedutech/"><i class="fa-brands text-white fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/nucot_edutech/"><i class="fa-brands text-white fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/@NucotEdutech"><i class="fa-brands text-white fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Sidebar area end here -->
+
+
+
+    <main>
+            
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/banner/1.jpg" class="d-block w-100 carousel-image" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/banner/1.jpg" class="d-block w-100 carousel-image" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/banner/1.jpg" class="d-block w-100 carousel-image" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/banner/1.jpg" class="d-block w-100 carousel-image" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+<style>
+/* Default settings for carousel images */
+.carousel-image {
+    width: 100%; /* Make the images take the full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire space without distortion */
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    /* Adjust carousel items on mobile */
+    .carousel-image {
+        height: 250px; /* Set a fixed height for mobile if necessary to prevent the image from being too tall */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .carousel-image {
+        height: 200px; /* Reduce height further if needed for small mobile screens */
+    }
+}
+
+</style>
+         
+        <div class="section-heade">
+            <h2 class="wow fadeInUp sliding-text" data-wow-delay="00ms" data-wow-duration="1500ms">
+                Nucot EduTech - Top Training and Placement
+            </h2>
+        </div>
+        
+        <style>
+        /* Container for the sliding effect */
+        .section-heade {
+          position: relative;
+          display: inline-block; /* Make the container match the height of the text */
+          overflow: hidden; /* Hide the text when it’s off-screen */
+          width: 100vw; /* Make the container take full screen width */
+          height: auto; /* Auto height based on text size */
+          background-image: url('assets/images/batches/4.png');
+          background-size: cover; /* Ensure the image covers the entire container */
+          background-position: center center; /* Center the background image */
+          background-repeat: no-repeat; /* Prevent repeating the image */
+        }
+        
+        /* The sliding text */
+        .sliding-text {
+          position: relative;
+          left: -100%; /* Start off-screen to the left */
+          font-size: 2em; /* Adjust font size */
+          white-space: nowrap; /* Prevent text from wrapping */
+          animation: slideInFullScreen 100s ease-out infinite;
+          color: #c8cdd5; /* Adjusted text color */
+        }
+        
+        /* Keyframes for sliding animation */
+        @keyframes slideInFullScreen {
+          0% {
+            left: -100%; /* Start from off-screen left */
+          }
+          40% {
+            left: 50%; /* Move to the center */
+            transform: translateX(-50%);
+          }
+          60% {
+            left: 50%;
+            transform: translateX(-50%);
+          }
+          100% {
+            left: 100%; /* Move completely to the right side */
+          }
+        }
+        
+        /* Mobile responsive adjustments */
+        @media (max-width: 768px) {
+          .sliding-text {
+            font-size: 1.5em;
+          }
+        }
+        
+        @media (max-width: 480px) {
+          .sliding-text {
+            font-size: 1.2em;
+          }
+        }
+        </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+            const slidingText = document.querySelector('.sliding-text');
+            slidingText.classList.add('slide'); // Add class that triggers the animation
+        });
+        </script>
+        
+
+
+        
+
+        <!-- About area start here -->
+        <section class="about-area ">
+           <div class="container">
+              <div class="row g-4">
+                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="about__left-part">
+                       <div class="about__image">
+                          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                             <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                   <img src="assets/images/about/cls1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                   <img src="assets/images/about/cls2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                   <img src="assets/images/about/cls3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                   <img src="assets/images/about/cls4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                               
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="col-xl-7">
+                    <div class="about__right-wrp">
+                       <div class="section-header">
+                    <h3 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms" style="color: blue";> JOIN US
+                             
+                    </h3>
+                          <p class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">NUCOT EDUTECH, a premier training institute in Bengaluru, is focused on bridging the gap between aspiring software professionals and the ever-evolving demands of the industry. With a broad spectrum of programs and 100% placement assistance, we provide students with the skills and expertise needed for career success. At NUCOT EDUTECH, dedication and hard work are recognized with abundant opportunities.
+
+                             We connect students with top IT companies and successful product-based businesses, delivering a high-quality education through practical, real-world learning experiences. Our experienced instructors, who have held leadership roles in the industry, are committed to addressing the skill gap and helping learners reach their full potential and achieve excellence.
+                          </p>
+                       </div>
+                       <a href="about.html" class="btn-one mt-50 wow fadeInDown" data-wow-delay="200ms"
+                          data-wow-duration="1500ms">About Us<i class="fa-light fa-arrow-right-long"></i></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </section>
+        <!-- About area end here -->
+
+        <!-- Brand area start here -->
+        <div class="brand-area pt-60 pb-60 bor-bottom">
+           <div class="container">
+              <div class="swiper brand__slider">
+                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                       <img src="assets/images/clients/i1.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/clients/i2.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                         <img src="assets/images/clients/i3.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                         <img src="assets/images/clients/i4.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/clients/i5.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/clients/i6.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                       <img src="assets/images/clients/i7.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/clients/i8.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                         <img src="assets/images/clients/i9.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                         <img src="assets/images/clients/i10.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/clients/i1.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/clients/i2.png" alt="image">
+                    </div>
+                     <div class="swiper-slide">
+                       <img src="assets/images/clients/i3.png" alt="image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/clients/i4.png" alt="image">
+                    </div>
+
+                 </div>
+              </div>
+           </div>
+        </div>
+        <!-- Brand area end here -->
+        
+        <!-- Courses area start here -->
+        <section class="courses-area">
+
+           <div class="courses__shape">
+              <img class="slide-up-down" src="assets/images/shape/courses-shape.png" alt="shape">
+           </div>
+           <div class="container">
+              <div class="section-header mb-60 text-center">
+                 <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">COURSES</h5>
+                 <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our course Models
+
+                 </h2>
+              </div>
+              <div class="courses__wrp">
+                 <div class="swiper courses-four__slider">
+                    <div class="swiper-wrapper">
+                       <div class="swiper-slide">
+                          <div class="courses__item">
+                             <div class="courses__image image">
+                                <img src="assets/images/courses/2.png" alt="image">
+
+                             </div>
+                             <div class="courses__content">
+                                <h3><a href="java-fullstack-development.html" class="primary-hover">Internship with Placement
+                                </h3>
+                                <ul style="list-style-type:disc !important;padding: 10px 20px 10px 20px">
+                                   <li style="list-style-type:disc !important">Scripting</li>
+                                   <li style="list-style-type:disc !important">Web Framework</li>
+                                   <li style="list-style-type:disc !important">API Development</li>
+                                   <li style="list-style-type:disc !important">Client-Side</li>
+                                   <li style="list-style-type:disc !important">UI Libraries</li>
+                                   <li style="list-style-type:disc !important">Datastore</li>
+                                   <li style="list-style-type:disc !important">Code Management</li>
+                                   <li style="list-style-type:disc !important">Hands-on</li>
+                               </ul>
+                                <div
+                                   class="bor-top pt-3 d-flex align-items-center justify-content-between gap-3">
+                                   <div class="star">
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                   </div>
+                                   <div class="d-flex gap-2 align-items-center">
+                                      <a href="" class="primary-hover">Explore</a>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                       <div class="swiper-slide">
+                          <div class="courses__item">
+                             <div class="courses__image image">
+                                <img src="assets/images/courses/1.png" alt="image">
+                                <!-- <div class="courses-price">
+                                   <h5 class="fs-18">$69</h5>
+                                   </div> -->
+                             </div>
+                             <div class="courses__content">
+                                <h3><a href="python-fullstack-development.html" class="primary-hover">Training with Placement
+                                </h3>
+                                <ul style="list-style-type:disc !important;padding: 10px 20px 10px 20px;">
+                                   <li style="list-style-type:disc !important">Backend</li>
+                                   <li style="list-style-type:disc !important">Enterprise</li>
+                                   <li style="list-style-type:disc !important">Framework</li>
+                                   <li style="list-style-type:disc !important">Architecture</li>
+                                   <li style="list-style-type:disc !important">UI/UX</li>
+                                   <li style="list-style-type:disc !important">Frontend</li>
+                                   <li style="list-style-type:disc !important">Databases</li>
+                                   <li style="list-style-type:disc !important">Development</li>
+                               </ul>
+                                <div
+                                   class="bor-top pt-3 d-flex align-items-center justify-content-between gap-3">
+                                   <div class="star">
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                   </div>
+                                   <div class="d-flex gap-2 align-items-center">
+                                      <a href="" class="primary-hover">Explore</a>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                       <div class="swiper-slide">
+                          <div class="courses__item">
+                             <div class="courses__image image">
+                                <img src="assets/images/courses/3.png" alt="image">
+                                <!-- <div class="courses-price">
+                                   <h5 class="fs-18">$69</h5>
+                                   </div> -->
+                             </div>
+                             <div class="courses__content">
+                                <h3><a href="mern-stack-development.html" class="primary-hover">Short Term Courses
+                                </h3>
+                                <ul style="list-style-type:disc !important;padding: 10px 20px 10px 20px">
+                                   <li style="list-style-type:disc !important">MongoDB</li>
+                                   <li style="list-style-type:disc !important">Express</li>
+                                   <li style="list-style-type:disc !important">React</li>
+                                   <li style="list-style-type:disc !important">Node</li>
+                                   <li style="list-style-type:disc !important">Web Basics</li>
+                                   <li style="list-style-type:disc !important">Tools</li>
+                                   <li style="list-style-type:disc !important">Architecture</li>
+                                   <li style="list-style-type:disc !important">Projects</li>
+                               </ul>
+                                <div
+                                   class="bor-top pt-3 d-flex align-items-center justify-content-between gap-3">
+                                   <div class="star">
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                   </div>
+                                   <div class="d-flex gap-2 align-items-center">
+                                      <a href="" class="primary-hover">Explore</a>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                       <div class="swiper-slide">
+                          <div class="courses__item">
+                             <div class="courses__image image">
+                                <img src="assets/images/courses/4.png" alt="image">
+                                <!-- <div class="courses-price">
+                                   <h5 class="fs-18">$69</h5>
+                                   </div> -->
+                             </div>
+                             <div class="courses__content">
+                                <h3><a href="software-testing.html" class="primary-hover">Institute Partnerships
+                                </h3>
+                                <ul style="list-style-type:disc !important;padding: 10px 20px 10px 20px">
+                                   <li style="list-style-type:disc !important">Industry-Focused Learning</li>
+                                   <li style="list-style-type:disc !important">College Partnerships</li>
+                                   <li style="list-style-type:disc !important">Career-Ready Competencies</li>
+                                   <li style="list-style-type:disc !important">Professional Mentorship</li>
+                                   <li style="list-style-type:disc !important">Real-World Projects</li>
+                                   <li style="list-style-type:disc !important">Interview Preparation</li>
+                                   <li style="list-style-type:disc !important">On-Campus Recruitment</li>
+                                   <li style="list-style-type:disc !important">Job Placement Guidance</li>
+                               </ul>
+                                <div
+                                   class="bor-top pt-3 d-flex align-items-center justify-content-between gap-3">
+                                   <div class="star">
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star"></i>
+                                      <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                   </div>
+                                   <div class="d-flex gap-2 align-items-center">
+                                      <a href="" class="primary-hover">Explore</a>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                
+              </div>
+           </div>
+        </section>
+        <!-- Courses area end here -->
+        <section class="choose-nine-area pt-60 pb-60" style="background-color: #293786 !important;">
+           <div class="container">
+              <div class="row justify-content-end">
+                 <div class="col-xl-12">
+                    <div class="choose-nine__right-wrp">
+                       <div class="section-header-three">
+                          <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms" style="color:white">Our Next Batches</h2>
+                       </div>
+                       <div class="choose-nine__right-part mt-25 wow fadeInDown" data-wow-delay="400ms"
+                          data-wow-duration="1500ms">
+                          <div class="col-md-4 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms" style="position:relative;">
+                            <img src="assets/images/batches/4.png" style="width: 100%; border-radius:30px;">
+                            <h3 style="position:absolute; bottom:64px; left:60px; color:#fff">2025-02-15</h3>
+                            <p style="position:absolute; bottom:30px; left:10px; color:#fff; padding:5px 10px; border-radius:5px">Batch Time: 05:00 PM</p>
+                            <p style="position:absolute; bottom:5px; left:10px; color:#fff; padding:5px 10px; border-radius:5px">ONLINE CLASS</p>
+                            <a href="#" id="registerBtn" style="position:absolute; bottom:5px; right:30px; color:#fff; background:green; padding:5px 5px; border-radius:5px; font-size:13px" onclick="openModal('registerModal2')">CLICK TO REGISTER</a>
+                        </div>
+                        
+                        <!-- Modal Form (Hidden by default) -->
+                        <div id="registerModal2" style="display:none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); justify-content: center; align-items: center;">
+                            <div style="background: white; padding: 20px; border-radius: 10px; width: 100%; max-width: 400px; margin: 0 20px;">
+                                <h3 style="text-align: center;">Register for the New Course</h3>
+                                <form id="registerForm2" action="https://script.google.com/macros/s/AKfycbzjvaOYdXp5vjp-jXuAo2JEWR5eprFAfHX1TZtcglmEYgowAca8O9SU-W1ju9RZmLgl0Q/exec" method="POST" onsubmit="submitForm(event)">
+                                    <div>
+                                        <label for="category">Select Your Category:</label>
+                                        <select id="category" name="forWhom" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+                                            <option value="student">Student</option>
+                                            <option value="corporate">Corporate</option>
+                                            <option value="returningProfessional">Returning Professional</option>
+                                            <option value="careerGap">Career Gap</option>
+                                            <option value="skillDevelopment">Skill Development</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div>
+                                        <label for="name2">Name:</label>
+                                        <input type="text" id="name2" name="name" required style="width: 100%; padding: 8px; margin-bottom: 10px;"/>
+                                    </div>
+                                    <div>
+                                        <label for="email2">Email ID:</label>
+                                        <input type="email" id="email2" name="email" required style="width: 100%; padding: 8px; margin-bottom: 10px;"/>
+                                    </div>
+                                    <div>
+                                        <label for="number2">Phone Number:</label>
+                                        <input type="text" id="number2" name="number" required style="width: 100%; padding: 8px; margin-bottom: 10px;"/>
+                                    </div>
+                                    <div>
+                                        <label for="subject2">Subject:</label>
+                                        <input type="text" id="subject2" name="subject" required style="width: 100%; padding: 8px; margin-bottom: 10px;"/>
+                                    </div>
+
+                                    <button type="submit" style="background: green; color: white; padding: 10px; width: 100%; border: none; border-radius: 5px;">Submit</button>
+                                </form>
+                                <button id="closeModal2" style="background: red; color: white; padding: 5px; width: 100%; border: none; border-radius: 5px; margin-top: 10px;" onclick="closeModal('registerModal2')">Close</button>
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- Success Modal (Hidden by default) -->
+                        <div id="successModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.5); justify-content:center; align-items:center;">
+                            <div style="background:white; padding:20px; border-radius:10px; width:300px; text-align:center;">
+                                <h3>Form Submitted Successfully!</h3>
+                                <button style="background:green; color:white; padding:10px; width:100%; border:none; border-radius:5px;" onclick="closeSuccessModal()">Close</button>
+                            </div>
+                        </div>
+                        
+                        <!-- JavaScript to control Modal visibility -->
+                        <script src="../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+                        
+                        <script>
+                            function openModal(modalId) {
+                                document.getElementById(modalId).style.display = "flex";
+                            }
+                        
+                            function closeModal(modalId) {
+                                document.getElementById(modalId).style.display = "none";
+                            }
+                        </script>
+                        <script>
+                            // Close the Modal
+                            function closeModal(modalId) {
+                                document.getElementById(modalId).style.display = "none";
+                            }
+                        
+                            // Submit the Form
+                            function submitForm(event) {
+                                event.preventDefault(); // Prevent the default form submission
+                        
+                                const form = document.getElementById('registerForm2');
+                                const formData = new FormData(form);
+                        
+                                // Send form data to the server
+                                fetch(form.action, {
+                                    method: 'POST',
+                                    body: formData
+                                })
+                                .then(response => {
+                                    if (response.ok) {
+                                        // Form submission successful
+                                        console.log("Form submitted successfully!");
+                                        closeModal('registerModal2'); // Close the registration modal
+                                        document.getElementById('successPopup').style.display = "flex"; // Show the success popup
+                                    } else {
+                                        console.error("Form submission failed.");
+                                    }
+                                })
+                                .catch(error => {
+                                    console.error("Error submitting the form:", error);
+                                });
+                            }
+                        
+                            // Redirect to Home Page
+                            function redirectToHome() {
+                                window.location.href = "index.html"; // Redirect to the homepage
+                            }
+                        </script>
+                        
+                                            <style>
+                                                
+                            /* General Form Styles */
+                            #registerModal2 {
+                                display: none;
+                                position: fixed;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background-color: rgba(0, 0, 0, 0.5);
+                                justify-content: center;
+                                align-items: center;
+                            }
+                        
+                            .modal-content {
+                                background: white;
+                                padding: 20px;
+                                border-radius: 10px;
+                                width: 100%;
+                                max-width: 400px;
+                                margin: 0 20px;
+                            }
+                        
+                            h3 {
+                                text-align: center;
+                            }
+                        
+                            label {
+                                display: block;
+                                margin: 5px 0;
+                            }
+                        
+                            input, button {
+                                width: 100%;
+                                padding: 8px;
+                                margin-bottom: 10px;
+                                box-sizing: border-box;
+                            }
+                        
+                            
+                        
+                            #closeModal2 {
+                                background: red;
+                                color: white;
+                                padding: 5px;
+                                border: none;
+                                border-radius: 5px;
+                                margin-top: 10px;
+                            }
+                        
+                            /* Mobile Responsiveness */
+                            @media (max-width: 768px) {
+                                .modal-content {
+                                    width: 90%;
+                                    padding: 15px;
+                                }
+                        
+                                h3 {
+                                    font-size: 18px;
+                                }
+                        
+                                input, button {
+                                    padding: 10px;
+                                    font-size: 16px;
+                                }
+                            }
+                        
+                            @media (max-width: 480px) {
+                                h3 {
+                                    font-size: 16px;
+                                }
+                                
+                                input, button {
+                                    padding: 12px;
+                                    font-size: 14px;
+                                }
+                            }
+                        </style>
+                        
+                                            </style>
+                                            <style>
+                                                /* Mobile-responsive styles */
+                                                @media (max-width: 768px) {
+                                                    #registerModal2 {
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        padding: 10px;
+                                                    }
+                                                    #registerModal2 > div {
+                                                        max-width: 100%;
+                                                        width: 100%;
+                                                        padding: 15px;
+                                                    }
+                                                    form input, form button {
+                                                        font-size: 16px;
+                                                        padding: 12px;
+                                                    }
+                                                    button {
+                                                        font-size: 18px;
+                                                    }
+                                                }
+                                            
+                                                /* Desktop view styles */
+                                                @media (min-width: 769px) {
+                                                    #registerModal2 {
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        padding: 0;
+                                                    }
+                                                    #registerModal2 > div {
+                                                        max-width: 400px;
+                                                        width: 100%;
+                                                        padding: 30px;
+                                                    }
+                                                }
+                                            </style>
+                                            
+                                            
+                                            
+                                            <!-- Success Message Popup -->
+                                            <div id="successPopup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); justify-content: center; align-items: center;">
+                                                <div style="background: white; padding: 20px; border-radius: 10px; width: 300px; text-align: center;">
+                                                    <h3>Form Submitted Successfully!</h3>
+                                                    <button onclick="redirectToHome()" style="background: green; color: white; padding: 10px; width: 100%; border: none; border-radius: 5px;">OK</button>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            <div class="col-md-4 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms" style="position:relative;">
+                                                <img src="assets/images/batches/3.png" style="width: 100%;border-radius:30px;">
+                                                <h3 style="position:absolute;bottom:64px;left:60px;color:#fff">2025-02-15</h3>
+                                                <p style="position:absolute;bottom:30px;left:10px;color:#fff;padding:5px 10px;border-radius:5px">Batch Time: 12:30 PM</p>
+                                                <p style="position:absolute;bottom:5px;left:10px;color:#fff;padding:5px 10px;border-radius:5px">ONLINE CLASS</p>
+                                                <a href="#" id="registerBtn" style="position:absolute;bottom:5px;right:30px;color:#fff;background:green;padding:5px 5px;border-radius:5px;font-size:13px" onclick="openModal('registerModal2')">CLICK TO REGISTER</a>
+                                            </div>
+                                            <!-- Modal Form 2 (hidden by default) -->
+                                           
+                                            
+                                            
+                                            <div class="col-md-4 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms" style="position:relative;">
+                                                <img src="assets/images/batches/4.png" style="width: 100%;border-radius:30px;">
+                                                <h3 style="position:absolute;bottom:64px;left:60px;color:#fff">2025-02-15</h3>
+                                                <p style="position:absolute;bottom:30px;left:10px;color:#fff;padding:5px 10px;border-radius:5px">Batch Time: 05:00 PM</p>
+                                                <p style="position:absolute;bottom:5px;left:10px;color:#fff;padding:5px 10px;border-radius:5px">ONLINE CLASS</p>
+                                                <a href="#" id="registerBtn" style="position:absolute;bottom:5px;right:30px;color:#fff;background:green;padding:5px 5px;border-radius:5px;font-size:13px" onclick="openModal('registerModal2')">CLICK TO REGISTER</a>
+                                            </div>
+                          
+                            <!-- Registration Button -->
+<!-- Registration Button -->
+
+                  
+                                                    </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </section>
+
+        <!-- Banner area end here -->
+        
+        <!-- Testimonial area start here -->
+        <section class="testimonial-two-area">
+           <div class="testimonial-two__wrp">
+              <div class="row g-5">
+                 <div class="col-xxl-4">
+                    <div class="section-header">
+                       <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">TESTIMONIALS</h5>
+                       <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Check what our students say
+                       </h2>
+                 
+                       <div class="d-flex align-items-center gap-3 mt-30 wow fadeInUp" data-wow-delay="600ms"
+                          data-wow-duration="1500ms"><button class="arry-prev testimonial-two__arry-prev"><i
+                          class="fa-light fa-arrow-left-long"></i></button>
+                          <button class="arry-next testimonial-two__arry-next active"><i
+                             class="fa-light fa-arrow-right-long"></i></button>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="col-xxl-8">
+                    <div class="swiper testimonial-two__slider shadow radius8">
+                       <div class="swiper-wrapper">
+                          
+                             <div class="swiper-slide">
+                                     <div class="testimonial-two__item">
+                                         <img src="admin_panel/uploads/1.png">
+                                     </div>
+                                 </div>
+                             
+                             <div class="swiper-slide">
+                                     <div class="testimonial-two__item">
+                                         <img src="admin_panel/uploads/2.png">
+                                     </div>
+                                 </div>
+                             
+                             <div class="swiper-slide">
+                                     <div class="testimonial-two__item">
+                                         <img src="admin_panel/uploads/3.png">
+                                     </div>
+                                 </div>
+                             
+                             <div class="swiper-slide">
+                                     <div class="testimonial-two__item">
+                                         <img src="admin_panel/uploads/4.png">
+                                     </div>
+                                 </div>
+                             
+
+                                                     </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </section>
+        <!-- Testimonial area end here -->
+        <section class="courses-area pt-60 pb-60 sub-bg">
+            <div class="section-header mb-60 text-center">
+                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Video Testimonials</h2>
+            </div>
+            <div class="parent-box owl-carousel">
+                <div class="box">
+                    <iframe class="gallery-item gallery-item-1" src="https://www.youtube.com/embed/VgySUfKU2Kg?autoplay=0&mute=1&enablejsapi=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="box">
+                    <iframe class="gallery-item gallery-item-1" src="https://www.youtube.com/embed/wqkD4P8KDZk?autoplay=0&mute=1&enablejsapi=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="box">
+                    <iframe class="gallery-item gallery-item-1" src="https://www.youtube.com/embed/vkWJhD8nWRk?autoplay=0&mute=1&enablejsapi=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="box">
+                    <iframe class="gallery-item gallery-item-1" src="https://www.youtube.com/embed/lGQoU9Xyxfs?autoplay=0&mute=1&enablejsapi=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="box">
+                    <iframe class="gallery-item gallery-item-1" src="https://www.youtube.com/embed/cHDwAHRO_ng?autoplay=0&mute=1&enablejsapi=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        
+        <script>
+            $(document).ready(function() {
+                $('.parent-box').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    autoplay: true,
+                    autoplayTimeout: 5000, // 5 seconds
+                    autoplayHoverPause: true,
+                    items: 1, // Show one video at a time
+                });
+            });
+        </script>
+        
+
+
+         
+        <!-- Courses area end here -->
+     </main>
+    
+    <!-- Add CSS for responsiveness -->
+    <style>
+        /* Banner Section */
+        .banner-inner__content h1 {
+            font-size: 2rem;
+        }
+        .banner-inner__content .breadcrumb {
+            font-size: 1rem;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .breadcrumb li {
+            display: inline;
+            margin-right: 5px;
+        }
+        .breadcrumb li a {
+            text-decoration: none;
+        }
+        
+        /* Contact Section */
+        .contact-area .contact__map iframe {
+            width: 100%;
+        }
+        
+        .contact-area .contact__item .section-header h3 {
+            font-size: 2rem;
+        }
+    
+        .contact-area .ext_form input, .contact-area .ext_form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    
+        .contact-area .ext_form textarea {
+            height: 120px;
+        }
+    
+        .contact-area .btn-one {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    
+        /* Mobile responsiveness */
+        @media (max-width: 991px) {
+            .contact-area .row {
+                flex-direction: column;
+            }
+    
+            .contact-area .col-lg-5, .contact-area .col-lg-7 {
+                width: 100%;
+                order: unset;
+            }
+    
+            .contact-area .contact__map iframe {
+                height: 300px;
+            }
+        }
+    
+        @media (max-width: 575px) {
+            .banner-inner__content h1 {
+                font-size: 1.5rem;
+            }
+            .contact-area .ext_form input, .contact-area .ext_form textarea {
+                padding: 8px;
+            }
+            .contact-area .btn-one {
+                padding: 12px 25px;
+            }
+        }
+    </style>
+    
+
+     <!-- Footer area start here -->
+     <style>
+        /* Floating Button */
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+        
+        .float1 {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            left: 40px;
+            background-color: #235391;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+        
+        .my-float {
+            margin-top: 16px;
+        }
+        
+        /* Logo styles */
+        .logo img {
+            height: 80px;
+            width: 60px; /* You can reduce this further */
+        }
+        
+        /* Main Menu Styles */
+        .main-menu ul li {
+            padding: 10px 20px; /* Adjust values to your liking */
+        }
+        
+        .main-menu a {
+            font-size: 14px; /* Adjust the font size */
+        }
+        
+        /* Menu Button Styles */
+        .menu-btns a {
+            font-size: 14px; /* Smaller font size for buttons */
+            padding: 8px 16px; /* Adjust padding to make the button more compact */
+        }
+        
+        /* Offcanvas Button */
+
+        
+        /* Header styles */
+        .header__main {
+            height: 100px; /* Adjust this value to your desired height */
+        }
+        
+        /* Mobile responsiveness */
+        @media (max-width: 991px) {
+        
+            /* Floating buttons: Move them to the center or adjust positioning */
+            .float, .float1 {
+                bottom: 20px;
+                right: 20px;
+                left: auto; /* Reset left for consistent positioning */
+            }
+        
+            /* Make logo smaller on mobile */
+            .logo img {
+                height: 60px;
+                width: 50px;
+            }
+        
+            /* Adjust menu padding and font sizes */
+            .main-menu ul li {
+                padding: 8px 12px; /* Reduce padding */
+            }
+        
+            .main-menu a {
+                font-size: 12px; /* Smaller font size */
+            }
+        
+            .menu-btns a {
+                font-size: 12px; /* Smaller font size for buttons */
+                padding: 6px 12px; /* Less padding */
+            }
+        
+            /* Header container adjustment */
+            .header__main {
+                height: 80px; /* Shorter header */
+            }
+        }
+        
+        /* Mobile screens ≤ 575px (phones) */
+        @media (max-width: 575px) {
+            
+            /* Adjust floating button size */
+            .float, .float1 {
+                width: 50px;
+                height: 50px;
+                font-size: 24px;
+                bottom: 15px;
+                right: 15px;
+            }
+        
+            /* Logo adjustment for very small screens */
+            .logo img {
+                height: 50px;
+                width: 40px;
+            }
+        
+            /* Further reduce menu padding and font size */
+            .main-menu ul li {
+                padding: 6px 10px; /* Less padding */
+            }
+        
+            .main-menu a {
+                font-size: 10px; /* Smaller font size */
+            }
+        
+            .menu-btns a {
+                font-size: 10px; /* Smaller font size for buttons */
+                padding: 5px 10px; /* Less padding */
+            }
+        
+            .header__main {
+                height: 70px; /* Even shorter header */
+            }
+        }
+        </style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        
+        <script>
+           $(document).ready(function(){
+              $(".owl-carousel").owlCarousel({
+                 items: 1,           // Show 1 item on mobile by default
+                 loop: true,         // Infinite looping
+                 margin: 10,         // Space between items
+                 autoplay: true,     // Enable autoplay
+                 autoplayTimeout: 3000, // Delay before autoplaying again
+                 responsive: {
+                    0: {
+                       items: 1,  // 1 item on mobile
+                       margin: 0,  // No margin on mobile
+                    },
+                    600: {
+                       items: 2,  // 2 items on tablets
+                       margin: 10, // Margin between items
+                    },
+                    1000: {
+                       items: 3,  // 3 items on larger screens
+                       margin: 15, // Margin between items
+                    }
+                 }
+              });
+           });
+        </script>
+        
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+   $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+         items: 3,           // Number of items visible at once
+         margin: 20,         // Space between items
+         loop: true,         // Infinite looping
+         autoplay: true,     // Enable autoplay
+         autoplayTimeout: 3000, // Delay before autoplaying again
+         responsive: {
+            0: {
+               items: 1,  // 1 item on mobile
+            },
+            600: {
+               items: 2,  // 2 items on tablets
+            },
+            1000: {
+               items: 3,  // 3 items on desktop
+            }
+         }
+      });
+   });
+</script>
+        
+
+<div class="header-top-area d-none d-lg-block">
+    <div class="header__container">
+        <div class="header-top__wrp">
+            <ul class="info">
+                <li>
+                  <b style="color:white">Jeevan Bheema Nagar </b>
+                    <a href="tel:" style="color: rgba(255, 255, 255, 1);">+91 9341219924</a>
+                </li>
+                
+                <li><span></span></li>
+                <li>
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_906_50)">
+                            <path d="M13.5937 1.875H1.40626C0.6308 1.875 0 2.5058 0 3.28126V11.7188C0 12.4942 0.6308 13.125 1.40626 13.125H13.5937C14.3692 13.125 15 12.4942 15 11.7188V3.28126C15 2.5058 14.3692 1.875 13.5937 1.875ZM13.5937 2.8125C13.6574 2.8125 13.718 2.82571 13.7734 2.84879L7.5 8.28599L1.22656 2.84879C1.28346 2.82493 1.34453 2.8126 1.40623 2.8125H13.5937ZM13.5937 12.1875H1.40626C1.14763 12.1875 0.937496 11.9774 0.937496 11.7187V3.83926L7.19283 9.26056C7.2812 9.33699 7.3906 9.375 7.5 9.375C7.6094 9.375 7.7188 9.33702 7.80717 9.26056L14.0625 3.83926V11.7188C14.0625 11.9774 13.8524 12.1875 13.5937 12.1875Z" fill="#2EB97E"></path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_906_50">
+                                <rect width="15" height="15" fill="white"></rect>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <a href="mailto:info@nucotedutech.com" style="color: rgba(255, 255, 255, 1);">info@nucotedutech.com</a>
+                </li>
+            </ul>
+            <ul class="socila-link">
+                <li class="text-white">Follow Us On :</li>
+                <li><a href="https://www.instagram.com/nucot_edutech/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/nucotedutech/"><i class="fa-brands fa-facebook-f"></i></a></li>
+               
+                <li><a href="https://www.youtube.com/@NucotEdutech"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+ </div>
+ 
+ <footer class="footer-area sub-bg">
+         
+    <div class="container">
+        <div class="footer__wrp pt-20 pb-20">
+            <div class="footer__item footer-about wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <!--<a href="index.html" class="logo">-->
+                <!--    <img src="assets/images/favicon.png" alt="logo">-->
+                <!--</a>-->
+                <h3 style="color:white">Jeevan Bheema Nagar</h3>
+                <ul>
+                    <li>
+                        <svg class="me-1" width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.99991 0C3.92603 0 0.611816 3.31421 0.611816 7.38809C0.611816 8.72925 1.21329 10.1717 1.2385 10.2325C1.43276 10.6936 1.81608 11.4098 2.09248 11.8296L7.1581 19.505C7.3654 19.8196 7.67222 20 7.99991 20C8.32759 20 8.63442 19.8196 8.84172 19.5054L13.9078 11.8296C14.1846 11.4098 14.5675 10.6936 14.7618 10.2325C14.787 10.1721 15.388 8.72968 15.388 7.38809C15.388 3.31421 12.0738 0 7.99991 0ZM13.9604 9.89526C13.787 10.3086 13.4302 10.9748 13.182 11.3512L8.11594 19.0269C8.01599 19.1786 7.98426 19.1786 7.88431 19.0269L2.81825 11.3512C2.5701 10.9748 2.21329 10.3081 2.03989 9.89483C2.0325 9.87701 1.481 8.54933 1.481 7.38809C1.481 3.79357 4.40538 0.869187 7.99991 0.869187C11.5944 0.869187 14.5188 3.79357 14.5188 7.38809C14.5188 8.55106 13.966 9.88223 13.9604 9.89526Z" fill="#2EB97E"></path>
+                            <path d="M7.99972 3.47754C5.84283 3.47754 4.08838 5.23243 4.08838 7.38888C4.08838 9.54534 5.84283 11.3002 7.99972 11.3002C10.1566 11.3002 11.9111 9.54534 11.9111 7.38888C11.9111 5.23243 10.1566 3.47754 7.99972 3.47754ZM7.99972 10.431C6.32262 10.431 4.95757 9.06641 4.95757 7.38888C4.95757 5.71135 6.32262 4.34673 7.99972 4.34673C9.67682 4.34673 11.0419 5.71135 11.0419 7.38888C11.0419 9.06641 9.67682 10.431 7.99972 10.431Z" fill="#2EB97E"></path>
+                        </svg>
+                        <a href="#0" class="p-0 myaddress" style="color: white">4,5, Crimson Court, Jeevan Bima Nagar Main Rd, next to Indian Oil Petrol Pump, HAL 3rd Stage, DOS Colony, Jeevan Bima Nagar, Bengaluru, Karnataka 560075</a>
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.7719 14.1213C18.7388 14.0938 14.9913 11.4275 13.9794 11.5906C13.4913 11.6769 13.2125 12.01 12.6531 12.6762C12.4985 12.8617 12.3403 13.0443 12.1788 13.2238C11.8252 13.1086 11.4804 12.9682 11.1469 12.8038C9.42533 11.9656 8.03437 10.5747 7.19625 8.85312C7.03179 8.51964 6.89143 8.1748 6.77625 7.82125C6.96 7.65312 7.2175 7.43625 7.3275 7.34375C7.99062 6.7875 8.32312 6.50812 8.40938 6.01937C8.58625 5.0075 5.90625 1.26125 5.87875 1.2275C5.7567 1.05441 5.59775 0.910578 5.41336 0.806386C5.22897 0.702193 5.02374 0.640241 4.8125 0.625C3.72625 0.625 0.625 4.6475 0.625 5.32562C0.625 5.365 0.681875 9.3675 5.6175 14.3881C10.6325 19.3181 14.635 19.375 14.6744 19.375C15.3519 19.375 19.375 16.2737 19.375 15.1875C19.3596 14.9762 19.2975 14.771 19.1932 14.5866C19.0889 14.4022 18.945 14.2433 18.7719 14.1213ZM14.605 18.1213C14.0625 18.075 10.7 17.6319 6.5 13.5063C2.35437 9.28563 1.9225 5.9175 1.87937 5.39563C2.69861 4.10978 3.68799 2.94064 4.82062 1.92C4.84562 1.945 4.87875 1.9825 4.92125 2.03125C5.78989 3.21702 6.53817 4.48642 7.155 5.82062C6.95441 6.02242 6.7424 6.21253 6.52 6.39C6.17512 6.65278 5.85843 6.95063 5.575 7.27875C5.52704 7.34604 5.4929 7.42217 5.47456 7.50274C5.45621 7.5833 5.45403 7.66671 5.46812 7.74813C5.60039 8.32108 5.80297 8.87549 6.07125 9.39875C7.03243 11.3725 8.62735 12.9672 10.6012 13.9281C11.1244 14.1968 11.6788 14.3996 12.2519 14.5319C12.3333 14.5463 12.4168 14.5443 12.4974 14.5259C12.578 14.5075 12.6541 14.4732 12.7213 14.425C13.0505 14.1404 13.3494 13.8225 13.6131 13.4762C13.8094 13.2425 14.0712 12.9306 14.1706 12.8425C15.5082 13.4587 16.7805 14.2079 17.9681 15.0787C18.02 15.1225 18.0569 15.1562 18.0812 15.1781C17.0606 16.3111 15.8912 17.3007 14.605 18.12V18.1213ZM14.375 9.375H15.625C15.6235 8.04937 15.0962 6.77847 14.1589 5.84111C13.2215 4.90375 11.9506 4.37649 10.625 4.375V5.625C11.6193 5.62599 12.5725 6.0214 13.2756 6.72445C13.9786 7.42749 14.374 8.38074 14.375 9.375Z" fill="#2EB97E"></path>
+                        </svg>
+                        <a href="tel:919341219924" class="p-0" style="color: white">+91 9341219924</a>
+                    </li>
+                </ul>
+                <hr>
+                 
+                
+            </div>
+            <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <h3 class="footer-title" style="color: white">Quick Link</h3>
+                <ul>
+                    <li><a href="index.html" style="color: white"><i class="fa-regular fa-angles-right me-1"></i>Home</a></li>
+                    <li><a href="about.html" style="color: white"><i class="fa-regular fa-angles-right me-1"></i> About Us</a>
+                    </li>
+                    <li><a href="courses.html" style="color: white"><i class="fa-regular fa-angles-right me-1"></i> Courses</a>
+                    </li>
+                    <li><a href="placements.html" style="color: white"><i class="fa-regular fa-angles-right me-1"></i> Placements</a>
+                    </li>
+                    <li><a href="contact.html" style="color: white"><i class="fa-regular fa-angles-right me-1"></i> Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <h3 class="footer-title" style="color: white">Courses</h3>
+                <ul>
+                    <li><a href="courses.html" style="color: white"><i class="fa-regular fa-angles-right me-1"></i> Training with Placement</a></li>
+                    
+                    <li><a href="courses.html" style="color: white"><i class="fa-regular fa-angles-right me-1"></i> Internship with Placement</a>
+                    </li>
+                    <li><a href="courses.html" style="color: white"><i class="fa-regular fa-angles-right me-1"></i> Institute Partnerships</a>
+                    </li>
+                    <li><a href="courses.html" style="color: white"><i class="fa-regular fa-angles-right me-1"></i> Short Term Courses</a></li>
+ 
+                </ul>
+            </div>
+            <div class="footer__item footer-subscribe wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <h3 class="footer-title" style="color: white">Map</h3>
+                
+                <div class="footer-newsletter">
+                   <iframe src="https://www.google.com/maps/embed/v1/place?q=nucot&amp;key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__copyright">
+        <div class="container">
+            <div class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
+                <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms" style="color: white">© All Copyright 2024
+                    by <a href="#0" class="primary-color" style="color: white">Nucot EduTech</a></p>
+               
+            </div>
+        </div>
+    </div>
+ </footer>
+ <style>
+    /* Footer Base Styles */
+    .footer-area {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+    }
+    
+    .footer__wrp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    
+    /* Footer Item Styling */
+    .footer__item {
+        flex: 1;
+        min-width: 250px; /* Ensure each section has a minimum width */
+    }
+    
+    .footer__item h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    /* Footer Links */
+    .footer__item ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .footer__item ul li {
+        margin-bottom: 10px;
+    }
+    
+    .footer__item ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .footer__item ul li a:hover {
+        color: #2EB97E; /* Add hover effect */
+    }
+    
+    .footer__item iframe {
+        width: 100%;
+        border: 0;
+    }
+    
+    /* Copyright Section */
+    .footer__copyright {
+        background-color: #222;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    .footer__copyright p {
+        margin: 0;
+        font-size: 14px;
+    }
+    
+    .footer__copyright a {
+        color: #2EB97E;
+        text-decoration: none;
+    }
+    
+    .footer__copyright a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Mobile Responsiveness */
+    @media (max-width: 991px) {
+        .footer__wrp {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .footer__item {
+            min-width: 100%;
+            margin-bottom: 20px;
+        }
+    
+        .footer__item h3 {
+            font-size: 16px;
+        }
+    
+        .footer__item ul li a {
+            font-size: 14px;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .footer__item h3 {
+            font-size: 14px;
+        }
+    
+        .footer__item ul li a {
+            font-size: 12px;
+        }
+    
+        .footer__copyright p {
+            font-size: 12px;
+        }
+    
+        .footer__copyright {
+            font-size: 12px;
+        }
+    }
+    </style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- WhatsApp Floating Icon -->
+<a href="https://api.whatsapp.com/send?phone=919341219924" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<!-- Phone Floating Icon -->
+<a href="tel:919341219924" class="float1" target="_blank">
+    <i class="fa fa-phone my-float"></i>
+</a>
+
+
+    <!-- Footer area end here -->    <!-- Footer area end here -->
+
+    <!-- Back to top area start here -->
+    <div class="scroll-up">
+        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+    <!-- Back to top area end here -->
+
+    
+
+    <!-- Jquery 3. 7. 1 Min Js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap min Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Mean menu Js -->
+    <script src="assets/js/meanmenu.js"></script>
+    <!-- Swiper bundle min Js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Counterup min Js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow min Js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Magnific popup min Js -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Nice select min Js -->
+    <script src="assets/js/nice-select.min.js"></script>
+    <!-- Parallax Js -->
+    <script src="assets/js/parallax.js"></script>
+    <!-- Waypoints Js -->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!-- Script Js -->
+    <script src="assets/js/script.js"></script>
+
+
+
+
+</body></html>
